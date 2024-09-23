@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cart quatity - Smaller version of Amazon</title>
+
+  <style>
+
+  </style>
+</head>
+<body>
+  
+  <h3>Cart Quantity</h3>
+  <button onclick="console.log(`Cart quantity: ${cart_quantity}`);"> Show Quantity </button>
+  <button onclick="console.log(`Cart quantity: ${cart_quantity= cart_quantity + 1}` );"> Add to Cart </button>
+  <button onclick="console.log(`Cart quantity: ${cart_quantity=cart_quantity+2}` );"> +2 </button>
+  <button onclick="console.log(`Cart quantity: ${cart_quantity=cart_quantity+3}` );">+3</button>
+  <button onclick="console.log(`cart_quantity: ${cart_quantity=cart_quantity-1}`);"> Remove from Cart</button>
+  <button onclick="console.log(`cart_quantity: ${cart_quantity=0}`);"> Reset the Cart</button>
+
+  <script>
+    let cart_quantity = 0;
+  </script>
+</body>
+</html>
