@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Coin-flip-game</title>
+</head>
+<body>
+  <h3>Try to do a simple version of Coin-flip-game</h3>
+  <h4>Choose from the given button</h4>
+  
+  <!-- In which Random number is generated only once, So to play the game yu need to refresh the website to generate the new random number,By which we can generate the computers head or tails. Through which we compare Both. -->
+
+  <button onclick=" if(result === 'head')
+          {
+            alert('You won the game, by choosing a head');
+          } else
+          {
+            alert('You lost the game');
+          }
+  "> Head </button>
+
+  <button onclick=" if(result === 'tail')
+          {
+            alert('You won the game, by choosing a head');
+          } else
+          {
+            alert('You lost the game');
+          }
+  "> tail </button>
+    <script>
+     const random = Math.random()
+      let result ='';
+      if (random<=0.5)
+      {
+        result = 'head';
+      } else {
+        result = 'tail';        
+      } console.log(result);
+  </script>
+</body>
+</html>
