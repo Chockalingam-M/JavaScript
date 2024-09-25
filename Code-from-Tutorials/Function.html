@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Functions</title>
+</head>
+<body>
+  <script>
+        console.log(function1()); 
+        variable1 =learn();
+        variable = variable1/2;
+        console.log(variable);
+        
+         
+    function function1() {
+      console.log('hello');
+      console.log(9+2);
+      const variable2 = 4;
+      return variable2  ; // It is use to return a value,number,string or the variable which stores the value. 
+      console.log('hello'); // After return the statement will not be executed.
+    } 
+
+    function learn() {
+      let variable1 = 2
+      return variable1;
+    } 
+
+     /* Parameter
+      Return = gets a value out of a function
+      Parameter = puts a value into a function */ 
+
+      function calculation(Parameter1 , Parameter2 = 5000 ) {
+        console.log(Parameter1 * 0.1);
+        console.log(Parameter2 * 0.2);
+        
+      }
+
+      calculation(200 , 200 );
+      calculation(6000);
+      
+    </script>
+</body>
+</html>
